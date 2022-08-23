@@ -79,7 +79,7 @@ a _stale image_, where the imported image is different from the image
 that would have been built from the artifact source.
 `tryImportMissing` is best used with a
 [tagging policy]({{<relref "/docs/pipeline-stages/taggers" >}}) such as
-`imageDigest` or `gitCommit`'s `TreeSha` or `AbbrevTreeSha` variants,
+`inputDigest` or `gitCommit`'s `TreeSha` or `AbbrevTreeSha` variants,
 where the tag is computed using the artifact's contents.
 
 
